@@ -5,14 +5,11 @@
     <version>1.0-SNAPSHOT</version>
 
     <groupId>net.arenx</groupId>
-    <artifactId>candidate2016</artifactId>
+    <artifactId>candidate2016.appengine</artifactId>
 
     <properties>
-        <app.id>candidate2016</app.id>
-        <app.version>1</app.version>
-        <appengine.version>1.9.21</appengine.version>
-        <gcloud.plugin.version>0.9.58.v20150505</gcloud.plugin.version>
-
+        <appengine.version__>1.9.22</appengine.version__>
+        <gcloud.plugin.version>1.9.17a</gcloud.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
     </properties>
@@ -26,12 +23,12 @@
         <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-api-1.0-sdk</artifactId>
-            <version>${appengine.version}</version>
+            <version>${appengine.version__}</version>
         </dependency>
         <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-endpoints</artifactId>
-            <version>${appengine.version}</version>
+            <version>${appengine.version__}</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -61,13 +58,13 @@
         <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-testing</artifactId>
-            <version>${appengine.version}</version>
+            <version>${appengine.version__}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-api-stubs</artifactId>
-            <version>${appengine.version}</version>
+            <version>${appengine.version__}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -121,7 +118,7 @@
             <plugin>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-maven-plugin</artifactId>
-                <version>${appengine.version}</version>
+                <version>${appengine.version__}</version>
                 <configuration>
                     <enableJarClasses>false</enableJarClasses>
                     <!-- Comment in the below snippet to bind to all IPs instead of just localhost -->
