@@ -1,4 +1,4 @@
-package net.arenx;
+package net.arenx.candidate2016.appengine;
 
 /**
  * Contains the client IDs and scopes for allowed clients consuming your API.

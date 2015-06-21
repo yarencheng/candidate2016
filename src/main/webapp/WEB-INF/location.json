@@ -1,0 +1,1946 @@
+[ {
+  "id" : "臺北市-1",
+  "name" : "臺北市",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "中正區-2",
+    "name" : "中正區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大同區-2",
+    "name" : "大同區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "中山區-2",
+    "name" : "中山區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "松山區-2",
+    "name" : "松山區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大安區-2",
+    "name" : "大安區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "萬華區-2",
+    "name" : "萬華區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "信義區-2",
+    "name" : "信義區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "士林區-2",
+    "name" : "士林區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "北投區-2",
+    "name" : "北投區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "內湖區-2",
+    "name" : "內湖區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "南港區-2",
+    "name" : "南港區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "文山區-2",
+    "name" : "文山區",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "新北市-1",
+  "name" : "新北市",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "板橋區-2",
+    "name" : "板橋區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "新莊區-2",
+    "name" : "新莊區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "中和區-2",
+    "name" : "中和區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "永和區-2",
+    "name" : "永和區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "土城區-2",
+    "name" : "土城區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "樹林區-2",
+    "name" : "樹林區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "三峽區-2",
+    "name" : "三峽區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "鶯歌區-2",
+    "name" : "鶯歌區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "三重區-2",
+    "name" : "三重區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "五股區-2",
+    "name" : "五股區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "泰山區-2",
+    "name" : "泰山區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "林口區-2",
+    "name" : "林口區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "淡水區-2",
+    "name" : "淡水區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "金山區-2",
+    "name" : "金山區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "八里區-2",
+    "name" : "八里區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "萬里區-2",
+    "name" : "萬里區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "石門區-2",
+    "name" : "石門區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "三芝區-2",
+    "name" : "三芝區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "瑞芳區-2",
+    "name" : "瑞芳區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "汐止區-2",
+    "name" : "汐止區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "平溪區-2",
+    "name" : "平溪區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "貢寮區-2",
+    "name" : "貢寮區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "雙溪區-2",
+    "name" : "雙溪區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "深坑區-2",
+    "name" : "深坑區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "石碇區-2",
+    "name" : "石碇區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "新店區-2",
+    "name" : "新店區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "坪林區-2",
+    "name" : "坪林區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "烏來區-2",
+    "name" : "烏來區",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "桃園市-1",
+  "name" : "桃園市",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "桃園區-2",
+    "name" : "桃園區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "八德區-2",
+    "name" : "八德區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大溪區-2",
+    "name" : "大溪區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "蘆竹區-2",
+    "name" : "蘆竹區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "龜山區-2",
+    "name" : "龜山區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大園區-2",
+    "name" : "大園區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "中壢區-2",
+    "name" : "中壢區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "龍潭區-2",
+    "name" : "龍潭區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "平鎮區-2",
+    "name" : "平鎮區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "楊梅區-2",
+    "name" : "楊梅區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "新屋區-2",
+    "name" : "新屋區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "復興區-2",
+    "name" : "復興區",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "臺中市-1",
+  "name" : "臺中市",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "中區-2",
+    "name" : "中區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "東區-2",
+    "name" : "東區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "南區-2",
+    "name" : "南區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "西區-2",
+    "name" : "西區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "北區-2",
+    "name" : "北區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "北屯區-2",
+    "name" : "北屯區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "西屯區-2",
+    "name" : "西屯區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "南屯區-2",
+    "name" : "南屯區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "太平區-2",
+    "name" : "太平區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大里區-2",
+    "name" : "大里區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "霧峰區-2",
+    "name" : "霧峰區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "烏日區-2",
+    "name" : "烏日區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "豐原區-2",
+    "name" : "豐原區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "后里區-2",
+    "name" : "后里區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "石岡區-2",
+    "name" : "石岡區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "東勢區-2",
+    "name" : "東勢區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "和平區-2",
+    "name" : "和平區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "新社區-2",
+    "name" : "新社區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "潭子區-2",
+    "name" : "潭子區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大雅區-2",
+    "name" : "大雅區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "神岡區-2",
+    "name" : "神岡區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大肚區-2",
+    "name" : "大肚區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "沙鹿區-2",
+    "name" : "沙鹿區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "龍井區-2",
+    "name" : "龍井區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "梧棲區-2",
+    "name" : "梧棲區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "清水區-2",
+    "name" : "清水區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大甲區-2",
+    "name" : "大甲區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "外埔區-2",
+    "name" : "外埔區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大安區-2",
+    "name" : "大安區",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "臺南市-1",
+  "name" : "臺南市",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "中西區-2",
+    "name" : "中西區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "東區-2",
+    "name" : "東區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "南區-2",
+    "name" : "南區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "北區-2",
+    "name" : "北區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "安平區-2",
+    "name" : "安平區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "安南區-2",
+    "name" : "安南區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "永康區-2",
+    "name" : "永康區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "歸仁區-2",
+    "name" : "歸仁區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "新化區-2",
+    "name" : "新化區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "左鎮區-2",
+    "name" : "左鎮區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "玉井區-2",
+    "name" : "玉井區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "楠西區-2",
+    "name" : "楠西區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "南化區-2",
+    "name" : "南化區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "仁德區-2",
+    "name" : "仁德區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "關廟區-2",
+    "name" : "關廟區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "龍崎區-2",
+    "name" : "龍崎區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "官田區-2",
+    "name" : "官田區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "麻豆區-2",
+    "name" : "麻豆區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "佳里區-2",
+    "name" : "佳里區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "西港區-2",
+    "name" : "西港區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "七股區-2",
+    "name" : "七股區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "將軍區-2",
+    "name" : "將軍區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "學甲區-2",
+    "name" : "學甲區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "北門區-2",
+    "name" : "北門區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "新營區-2",
+    "name" : "新營區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "後壁區-2",
+    "name" : "後壁區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "白河區-2",
+    "name" : "白河區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "東山區-2",
+    "name" : "東山區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "六甲區-2",
+    "name" : "六甲區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "下營區-2",
+    "name" : "下營區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "柳營區-2",
+    "name" : "柳營區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "鹽水區-2",
+    "name" : "鹽水區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "善化區-2",
+    "name" : "善化區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大內區-2",
+    "name" : "大內區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "山上區-2",
+    "name" : "山上區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "新市區-2",
+    "name" : "新市區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "安定區-2",
+    "name" : "安定區",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "高雄市-1",
+  "name" : "高雄市",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "楠梓區-2",
+    "name" : "楠梓區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "左營區-2",
+    "name" : "左營區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "鼓山區-2",
+    "name" : "鼓山區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "三民區-2",
+    "name" : "三民區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "鹽埕區-2",
+    "name" : "鹽埕區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "前金區-2",
+    "name" : "前金區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "新興區-2",
+    "name" : "新興區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "苓雅區-2",
+    "name" : "苓雅區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "前鎮區-2",
+    "name" : "前鎮區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "旗津區-2",
+    "name" : "旗津區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "小港區-2",
+    "name" : "小港區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "鳳山區-2",
+    "name" : "鳳山區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大寮區-2",
+    "name" : "大寮區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "鳥松區-2",
+    "name" : "鳥松區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "林園區-2",
+    "name" : "林園區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "仁武區-2",
+    "name" : "仁武區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大樹區-2",
+    "name" : "大樹區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大社區-2",
+    "name" : "大社區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "岡山區-2",
+    "name" : "岡山區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "路竹區-2",
+    "name" : "路竹區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "橋頭區-2",
+    "name" : "橋頭區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "梓官區-2",
+    "name" : "梓官區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "彌陀區-2",
+    "name" : "彌陀區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "永安區-2",
+    "name" : "永安區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "燕巢區-2",
+    "name" : "燕巢區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "田寮區-2",
+    "name" : "田寮區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "阿蓮區-2",
+    "name" : "阿蓮區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "茄萣區-2",
+    "name" : "茄萣區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "湖內區-2",
+    "name" : "湖內區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "旗山區-2",
+    "name" : "旗山區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "美濃區-2",
+    "name" : "美濃區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "內門區-2",
+    "name" : "內門區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "甲仙區-2",
+    "name" : "甲仙區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "杉林區-2",
+    "name" : "杉林區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "甲仙區-2",
+    "name" : "甲仙區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "六龜區-2",
+    "name" : "六龜區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "茂林區-2",
+    "name" : "茂林區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "桃源區-2",
+    "name" : "桃源區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "那瑪夏區-2",
+    "name" : "那瑪夏區",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "基隆市-1",
+  "name" : "基隆市",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "仁愛區-2",
+    "name" : "仁愛區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "中正區-2",
+    "name" : "中正區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "信義區-2",
+    "name" : "信義區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "中山區-2",
+    "name" : "中山區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "安樂區-2",
+    "name" : "安樂區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "暖暖區-2",
+    "name" : "暖暖區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "七堵區-2",
+    "name" : "七堵區",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "新竹市-1",
+  "name" : "新竹市",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "東區-2",
+    "name" : "東區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "北區-2",
+    "name" : "北區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "香山區-2",
+    "name" : "香山區",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "嘉義市-1",
+  "name" : "嘉義市",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "東區-2",
+    "name" : "東區",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "西區-2",
+    "name" : "西區",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "新竹縣-1",
+  "name" : "新竹縣",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "竹北市-2",
+    "name" : "竹北市",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "竹東鎮-2",
+    "name" : "竹東鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "新埔鎮-2",
+    "name" : "新埔鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "關西鎮-2",
+    "name" : "關西鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "湖口鄉-2",
+    "name" : "湖口鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "新豐鄉-2",
+    "name" : "新豐鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "峨眉鄉-2",
+    "name" : "峨眉鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "寶山鄉-2",
+    "name" : "寶山鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "北埔鄉-2",
+    "name" : "北埔鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "芎林鄉-2",
+    "name" : "芎林鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "橫山鄉-2",
+    "name" : "橫山鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "尖石鄉-2",
+    "name" : "尖石鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "五峰鄉-2",
+    "name" : "五峰鄉",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "苗栗縣-1",
+  "name" : "苗栗縣",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "苗栗市-2",
+    "name" : "苗栗市",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "造橋鄉-2",
+    "name" : "造橋鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "西湖鄉-2",
+    "name" : "西湖鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "頭屋鄉-2",
+    "name" : "頭屋鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "公館鄉-2",
+    "name" : "公館鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "銅鑼鄉-2",
+    "name" : "銅鑼鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "三義鄉-2",
+    "name" : "三義鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大湖鄉-2",
+    "name" : "大湖鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "獅潭鄉-2",
+    "name" : "獅潭鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "卓蘭鎮-2",
+    "name" : "卓蘭鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "竹南鎮-2",
+    "name" : "竹南鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "頭份鎮-2",
+    "name" : "頭份鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "三灣鄉-2",
+    "name" : "三灣鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "南庄鄉-2",
+    "name" : "南庄鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "後龍鎮-2",
+    "name" : "後龍鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "通霄鎮-2",
+    "name" : "通霄鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "苑裡鎮-2",
+    "name" : "苑裡鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "泰安鄉-2",
+    "name" : "泰安鄉",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "彰化縣-1",
+  "name" : "彰化縣",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "彰化市-2",
+    "name" : "彰化市",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "員林鎮-2",
+    "name" : "員林鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "和美鎮-2",
+    "name" : "和美鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "鹿港鎮-2",
+    "name" : "鹿港鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "溪湖鎮-2",
+    "name" : "溪湖鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "二林鎮-2",
+    "name" : "二林鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "田中鎮-2",
+    "name" : "田中鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "北斗鎮-2",
+    "name" : "北斗鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "花壇鄉-2",
+    "name" : "花壇鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "芬園鄉-2",
+    "name" : "芬園鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大村鄉-2",
+    "name" : "大村鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "永靖鄉-2",
+    "name" : "永靖鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "伸港鄉-2",
+    "name" : "伸港鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "線西鄉-2",
+    "name" : "線西鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "福興鄉-2",
+    "name" : "福興鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "秀水鄉-2",
+    "name" : "秀水鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "埔心鄉-2",
+    "name" : "埔心鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "埔鹽鄉-2",
+    "name" : "埔鹽鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大城鄉-2",
+    "name" : "大城鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "芳苑鄉-2",
+    "name" : "芳苑鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "竹塘鄉-2",
+    "name" : "竹塘鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "社頭鄉-2",
+    "name" : "社頭鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "二水鄉-2",
+    "name" : "二水鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "田尾鄉-2",
+    "name" : "田尾鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "埤頭鄉-2",
+    "name" : "埤頭鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "溪州鄉-2",
+    "name" : "溪州鄉",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "南投縣-1",
+  "name" : "南投縣",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "南投市-2",
+    "name" : "南投市",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "埔里鎮-2",
+    "name" : "埔里鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "草屯鎮-2",
+    "name" : "草屯鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "竹山鎮-2",
+    "name" : "竹山鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "集集鎮-2",
+    "name" : "集集鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "名間鄉-2",
+    "name" : "名間鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "鹿谷鄉-2",
+    "name" : "鹿谷鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "中寮鄉-2",
+    "name" : "中寮鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "魚池鄉-2",
+    "name" : "魚池鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "國姓鄉-2",
+    "name" : "國姓鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "水里鄉-2",
+    "name" : "水里鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "信義鄉-2",
+    "name" : "信義鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "仁愛鄉-2",
+    "name" : "仁愛鄉",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "雲林縣-1",
+  "name" : "雲林縣",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "斗六市-2",
+    "name" : "斗六市",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "斗南鎮-2",
+    "name" : "斗南鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "林內鄉-2",
+    "name" : "林內鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "古坑鄉-2",
+    "name" : "古坑鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大埤鄉-2",
+    "name" : "大埤鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "莿桐鄉-2",
+    "name" : "莿桐鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "虎尾鎮-2",
+    "name" : "虎尾鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "西螺鎮-2",
+    "name" : "西螺鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "土庫鎮-2",
+    "name" : "土庫鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "褒忠鄉-2",
+    "name" : "褒忠鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "二崙鄉-2",
+    "name" : "二崙鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "崙背鄉-2",
+    "name" : "崙背鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "麥寮鄉-2",
+    "name" : "麥寮鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "臺西鄉-2",
+    "name" : "臺西鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "東勢鄉-2",
+    "name" : "東勢鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "北港鎮-2",
+    "name" : "北港鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "元長鄉-2",
+    "name" : "元長鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "四湖鄉-2",
+    "name" : "四湖鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "口湖鄉-2",
+    "name" : "口湖鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "水林鄉-2",
+    "name" : "水林鄉",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "嘉義縣-1",
+  "name" : "嘉義縣",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "太保市-2",
+    "name" : "太保市",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "朴子市-2",
+    "name" : "朴子市",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "布袋鎮-2",
+    "name" : "布袋鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大林鎮-2",
+    "name" : "大林鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "民雄鄉-2",
+    "name" : "民雄鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "溪口鄉-2",
+    "name" : "溪口鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "新港鄉-2",
+    "name" : "新港鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "六腳鄉-2",
+    "name" : "六腳鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "東石鄉-2",
+    "name" : "東石鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "義竹鄉-2",
+    "name" : "義竹鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "鹿草鄉-2",
+    "name" : "鹿草鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "水上鄉-2",
+    "name" : "水上鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "中埔鄉-2",
+    "name" : "中埔鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "竹崎鄉-2",
+    "name" : "竹崎鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "梅山鄉-2",
+    "name" : "梅山鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "番路鄉-2",
+    "name" : "番路鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大埔鄉-2",
+    "name" : "大埔鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "阿里山鄉-2",
+    "name" : "阿里山鄉",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "屏東縣-1",
+  "name" : "屏東縣",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "屏東市-2",
+    "name" : "屏東市",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "潮州鎮-2",
+    "name" : "潮州鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "東港鎮-2",
+    "name" : "東港鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "恆春鎮-2",
+    "name" : "恆春鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "萬丹鄉-2",
+    "name" : "萬丹鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "崁頂鄉-2",
+    "name" : "崁頂鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "新園鄉-2",
+    "name" : "新園鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "林邊鄉-2",
+    "name" : "林邊鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "南州鄉-2",
+    "name" : "南州鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "琉球鄉-2",
+    "name" : "琉球鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "枋寮鄉-2",
+    "name" : "枋寮鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "枋山鄉-2",
+    "name" : "枋山鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "車城鄉-2",
+    "name" : "車城鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "滿州鄉-2",
+    "name" : "滿州鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "高樹鄉-2",
+    "name" : "高樹鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "九如鄉-2",
+    "name" : "九如鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "鹽埔鄉-2",
+    "name" : "鹽埔鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "里港鄉-2",
+    "name" : "里港鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "內埔鄉-2",
+    "name" : "內埔鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "竹田鄉-2",
+    "name" : "竹田鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "長治鄉-2",
+    "name" : "長治鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "麟洛鄉-2",
+    "name" : "麟洛鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "萬巒鄉-2",
+    "name" : "萬巒鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "新埤鄉-2",
+    "name" : "新埤鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "佳冬鄉-2",
+    "name" : "佳冬鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "霧台鄉-2",
+    "name" : "霧台鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "泰武鄉-2",
+    "name" : "泰武鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "瑪家鄉-2",
+    "name" : "瑪家鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "來義鄉-2",
+    "name" : "來義鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "春日鄉-2",
+    "name" : "春日鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "獅子鄉-2",
+    "name" : "獅子鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "牡丹鄉-2",
+    "name" : "牡丹鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "三地門鄉-2",
+    "name" : "三地門鄉",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "宜蘭縣-1",
+  "name" : "宜蘭縣",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "宜蘭市-2",
+    "name" : "宜蘭市",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "頭城鎮-2",
+    "name" : "頭城鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "礁溪鄉-2",
+    "name" : "礁溪鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "壯圍鄉-2",
+    "name" : "壯圍鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "員山鄉-2",
+    "name" : "員山鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "羅東鎮-2",
+    "name" : "羅東鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "蘇澳鎮-2",
+    "name" : "蘇澳鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "五結鄉-2",
+    "name" : "五結鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "三星鄉-2",
+    "name" : "三星鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "冬山鄉-2",
+    "name" : "冬山鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大同鄉-2",
+    "name" : "大同鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "南澳鄉-2",
+    "name" : "南澳鄉",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "花蓮縣-1",
+  "name" : "花蓮縣",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "花蓮市-2",
+    "name" : "花蓮市",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "鳳林鎮-2",
+    "name" : "鳳林鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "玉里鎮-2",
+    "name" : "玉里鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "新城鄉-2",
+    "name" : "新城鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "吉安鄉-2",
+    "name" : "吉安鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "壽豐鄉-2",
+    "name" : "壽豐鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "光復鄉-2",
+    "name" : "光復鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "豐濱鄉-2",
+    "name" : "豐濱鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "瑞穗鄉-2",
+    "name" : "瑞穗鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "富里鄉-2",
+    "name" : "富里鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "秀林鄉-2",
+    "name" : "秀林鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "萬榮鄉-2",
+    "name" : "萬榮鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "卓溪鄉-2",
+    "name" : "卓溪鄉",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "臺東縣-1",
+  "name" : "臺東縣",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "臺東市-2",
+    "name" : "臺東市",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "成功鎮-2",
+    "name" : "成功鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "關山鎮-2",
+    "name" : "關山鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "長濱鄉-2",
+    "name" : "長濱鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "池上鄉-2",
+    "name" : "池上鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "東河鄉-2",
+    "name" : "東河鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "鹿野鄉-2",
+    "name" : "鹿野鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "卑南鄉-2",
+    "name" : "卑南鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "大武鄉-2",
+    "name" : "大武鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "綠島鄉-2",
+    "name" : "綠島鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "太麻里鄉-2",
+    "name" : "太麻里鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "海端鄉-2",
+    "name" : "海端鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "延平鄉-2",
+    "name" : "延平鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "金峰鄉-2",
+    "name" : "金峰鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "達仁鄉-2",
+    "name" : "達仁鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "蘭嶼鄉-2",
+    "name" : "蘭嶼鄉",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "澎湖縣-1",
+  "name" : "澎湖縣",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "馬公市-2",
+    "name" : "馬公市",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "湖西鄉-2",
+    "name" : "湖西鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "白沙鄉-2",
+    "name" : "白沙鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "西嶼鄉-2",
+    "name" : "西嶼鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "望安鄉-2",
+    "name" : "望安鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "七美鄉-2",
+    "name" : "七美鄉",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "金門縣-1",
+  "name" : "金門縣\t",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "金城鎮-2",
+    "name" : "金城鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "金湖鎮-2",
+    "name" : "金湖鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "金沙鎮-2",
+    "name" : "金沙鎮",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "金寧鄉-2",
+    "name" : "金寧鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "烈嶼鄉-2",
+    "name" : "烈嶼鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "烏坵鄉-2",
+    "name" : "烏坵鄉",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+}, {
+  "id" : "連江縣-1",
+  "name" : "連江縣",
+  "level" : 1,
+  "subLevels" : [ {
+    "id" : "南竿鄉-2",
+    "name" : "南竿鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "北竿鄉-2",
+    "name" : "北竿鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "莒光鄉-2",
+    "name" : "莒光鄉",
+    "level" : 2,
+    "subLevels" : null
+  }, {
+    "id" : "東引鄉-2",
+    "name" : "東引鄉",
+    "level" : 2,
+    "subLevels" : null
+  } ]
+} ]
