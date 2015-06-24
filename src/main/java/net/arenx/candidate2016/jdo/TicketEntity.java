@@ -62,14 +62,14 @@ public class TicketEntity {
 	private Long quota;
 	
 	
-	public static Long getAllPaidQuota(UserEntity owner){
+	public static Integer getAllPaidQuota(UserEntity owner){
 		Validate.notNull(owner);
 		PersistenceManager pm=PersistenceManagerThreadLoccal.get();
 		Query query = pm.newQuery(TicketEntity.class);
 		query.setFilter("owner == x && ticketType == y");
 		query.declareParameters(UserEntity.class.getName()+" x, "+TicketType.class.getName()+" y");
 		query.setResult("sum(this.quota)");
-		Long quota = (Long) query.execute(owner,TicketType.paid);
+		Integer quota = (Integer) query.execute(owner,TicketType.paid);
 		return quota == null ? 0 : quota;
 	}
 	

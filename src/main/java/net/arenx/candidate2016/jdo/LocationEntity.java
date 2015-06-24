@@ -15,6 +15,10 @@ import com.google.appengine.datanucleus.annotations.Unowned;
 @PersistenceCapable
 public class LocationEntity {
 
+	private LocationEntity(){
+		
+	}
+	
 	/**
 	 * ID = "name-level"
 	 * e.g. "中山區-2" 

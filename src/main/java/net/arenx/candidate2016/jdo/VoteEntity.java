@@ -23,7 +23,7 @@ import com.google.appengine.datanucleus.annotations.Unowned;
 @PersistenceCapable
 public class VoteEntity {
 
-	public VoteEntity(UserEntity user,CandidateEntity candidate,Integer quota,TicketType ticketType){
+	private VoteEntity(UserEntity user,CandidateEntity candidate,Integer quota,TicketType ticketType){
 		Validate.notNull(user);
 		Validate.notNull(candidate);
 		Validate.notNull(quota);
@@ -186,14 +186,65 @@ public class VoteEntity {
 		}		
     }
 	
-	public static Long getAllVotedPaidTicket(UserEntity user){
+	public static class Builder{
+		private VoteEntity voteEntity;
+		private boolean isFinished = false;
+		private Builder(UserEntity user,CandidateEntity candidate,Integer quota,TicketType ticketType){
+			voteEntity = new VoteEntity(user, candidate, quota, ticketType);
+		}
+		public static Builder initial(UserEntity user,CandidateEntity candidate,Integer quota,TicketType ticketType){
+			return new Builder( user, candidate, quota, ticketType);
+		}
+		public Builder setAge(Integer age){
+			voteEntity.getStatisticsData().setAge(age);
+			return this;
+		}
+		public Builder setSex(Sex sex){
+			voteEntity.getStatisticsData().setSex(sex);
+			return this;
+		}
+		public Builder setDevice(DeviceEntity device){
+			voteEntity.getStatisticsData().setDevice(device);
+			return this;
+		}
+		public Builder setLatitude(Double latitude){
+			voteEntity.getStatisticsData().setLatitude(latitude);
+			return this;
+		}
+		public Builder setLogitude(Double logitude){
+			voteEntity.getStatisticsData().setLogitude(logitude);
+			return this;
+		}
+		public Builder setLocationLayer1(LocationEntity locationLayer){
+			voteEntity.getStatisticsData().setLocationLayer1(locationLayer);
+			return this;
+		}
+		public Builder setLocationLayer2(LocationEntity locationLayer){
+			voteEntity.getStatisticsData().setLocationLayer2(locationLayer);
+			return this;
+		}
+		public Builder setOsType(OsEntity os){
+			voteEntity.getStatisticsData().setOsType(os);
+			return this;
+		}
+		public void build(){
+			if(isFinished){
+				throw new IllegalStateException("this builder is allready finished");
+			}
+			PersistenceManager pm=PersistenceManagerThreadLoccal.get();
+			pm.makePersistent(voteEntity);
+			isFinished=true;
+		}
+	}
+	
+	public static Integer getAllVotedPaidTicket(UserEntity user){
 		Validate.notNull(user);
 		PersistenceManager pm=PersistenceManagerThreadLoccal.get();
 		Query query = pm.newQuery(VoteEntity.class);
 		query.setFilter("user == x && ticketType == y");
 		query.declareParameters(UserEntity.class.getName()+" x, "+TicketType.class.getName()+" y");
 		query.setResult("sum(this.quota)");
-		Long quota = (Long) query.execute(user,TicketType.paid);
+		Integer quota = (Integer) query.execute(user,TicketType.paid);
 		return quota == null ? 0 : quota;
 	}
 	

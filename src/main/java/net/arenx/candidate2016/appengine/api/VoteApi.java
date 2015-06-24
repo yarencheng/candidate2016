@@ -7,6 +7,7 @@ import javax.jdo.PersistenceManager;
 import org.apache.commons.lang3.Validate;
 
 import net.arenx.candidate2016.appengine.VoteStatus;
+import net.arenx.candidate2016.appengine.enums.Sex;
 import net.arenx.candidate2016.appengine.enums.TicketType;
 import net.arenx.candidate2016.jdo.AppConfigEntity;
 import net.arenx.candidate2016.jdo.CandidateEntity;
@@ -41,6 +42,8 @@ public class VoteApi {
     public VoteStatus vote(
     		@Named("candidateId") Long candidateId,
     		@Named("ticketCount") Integer ticketCount,
+    		@Named("age") @Nullable Integer age,
+    		@Named("Sex") @Nullable Sex sex,
     		@Named("longitude") @Nullable Double longitude,
     		@Named("latitude") @Nullable Double latitude,
     		@Named("locationLayer1") @Nullable String locationLayer1,
@@ -64,9 +67,9 @@ public class VoteApi {
 			
 			// check ticket quota
 			UserEntity userEntity = UserEntity.getUser(user, true);
-			long remainingPaidTickets = TicketEntity.getAllPaidQuota(userEntity) - VoteEntity.getAllVotedPaidTicket(userEntity);
+			int remainingPaidTickets = TicketEntity.getAllPaidQuota(userEntity) - VoteEntity.getAllVotedPaidTicket(userEntity);
 			Date lastTimeVoteFreeTicket = VoteEntity.getLastDateOfVoteFreeTikcket(userEntity);
-			long remainingFreeTickets = 0;
+			int remainingFreeTickets = 0;
 			if(lastTimeVoteFreeTicket == null || 
 					System.currentTimeMillis()-lastTimeVoteFreeTicket.getTime()>= Integer.parseInt(AppConfigEntity.get(AppConfigEntity.Key.FREE_TICKET_ISSUE_INTERVAL))){
 				remainingFreeTickets = 1;
@@ -77,31 +80,33 @@ public class VoteApi {
 				return voteStatus;
 			}
 			
-			long numberOfPaidTicket = remainingPaidTickets > ticketCount ? ticketCount : remainingPaidTickets;
-			long numberOfFreeTicket = numberOfPaidTicket < ticketCount ? remainingFreeTickets : 0;
+			int numberOfPaidTicket = remainingPaidTickets > ticketCount ? ticketCount : remainingPaidTickets;
+			int numberOfFreeTicket = numberOfPaidTicket < ticketCount ? remainingFreeTickets : 0;
 			
 			// create vote
 			if(numberOfPaidTicket>0){
-				VoteEntity paidVoteEntity=new VoteEntity(userEntity, candidateEntity, (int) numberOfPaidTicket, TicketType.paid);
-				paidVoteEntity.getStatisticsData().setAge(userEntity.getAge());
-				paidVoteEntity.getStatisticsData().setLogitude(longitude);
-				paidVoteEntity.getStatisticsData().setLatitude(latitude);
-				paidVoteEntity.getStatisticsData().setLocationLayer1(LocationEntity.getLocation(locationLayer1, 1));
-				paidVoteEntity.getStatisticsData().setLocationLayer2(LocationEntity.getLocation(locationLayer2, 2));
-				if(osType!=null)paidVoteEntity.getStatisticsData().setOsType(OsEntity.getOs(osType, true));
-				if(device!=null)paidVoteEntity.getStatisticsData().setDevice(DeviceEntity.getDevice(device, true));
-				pm.makePersistent(paidVoteEntity);
+				VoteEntity.Builder.initial(userEntity, candidateEntity, numberOfPaidTicket, TicketType.paid)
+					.setAge(age!=null ? age : userEntity.getAge())
+					.setDevice(device!=null ? DeviceEntity.getDevice(device, true) : null)
+					.setLatitude(latitude!=null ? latitude : null)
+					.setLogitude(longitude!=null ? longitude : null)
+					.setLocationLayer1(LocationEntity.getLocation(locationLayer1, 1))
+					.setLocationLayer2(LocationEntity.getLocation(locationLayer2, 2))
+					.setOsType(osType!=null ? OsEntity.getOs(osType, true) : null)
+					.setSex(sex)
+					.build();				
 			}
 			if(numberOfFreeTicket>0){
-				VoteEntity freeVoteEntity=new VoteEntity(userEntity, candidateEntity, (int) numberOfFreeTicket, TicketType.free);
-				freeVoteEntity.getStatisticsData().setAge(userEntity.getAge());
-				freeVoteEntity.getStatisticsData().setLogitude(longitude);
-				freeVoteEntity.getStatisticsData().setLatitude(latitude);
-				freeVoteEntity.getStatisticsData().setLocationLayer1(LocationEntity.getLocation(locationLayer1, 1));
-				freeVoteEntity.getStatisticsData().setLocationLayer2(LocationEntity.getLocation(locationLayer2, 2));
-				if(osType!=null)freeVoteEntity.getStatisticsData().setOsType(OsEntity.getOs(osType, true));
-				if(device!=null)freeVoteEntity.getStatisticsData().setDevice(DeviceEntity.getDevice(device, true));
-				pm.makePersistent(freeVoteEntity);
+				VoteEntity.Builder.initial(userEntity, candidateEntity, numberOfFreeTicket, TicketType.free)
+				.setAge(age!=null ? age : userEntity.getAge())
+				.setDevice(device!=null ? DeviceEntity.getDevice(device, true) : null)
+				.setLatitude(latitude!=null ? latitude : null)
+				.setLogitude(longitude!=null ? longitude : null)
+				.setLocationLayer1(LocationEntity.getLocation(locationLayer1, 1))
+				.setLocationLayer2(LocationEntity.getLocation(locationLayer2, 2))
+				.setOsType(osType!=null ? OsEntity.getOs(osType, true) : null)
+				.setSex(sex)
+				.build();
 			}
 			
 			// return success
