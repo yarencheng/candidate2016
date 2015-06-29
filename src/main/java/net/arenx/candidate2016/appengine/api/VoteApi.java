@@ -67,7 +67,7 @@ public class VoteApi {
 			
 			// check ticket quota
 			UserEntity userEntity = UserEntity.getUser(user, true);
-			int remainingPaidTickets = TicketEntity.getAllPaidQuota(userEntity) - VoteEntity.getAllVotedPaidTicket(userEntity);
+			long remainingPaidTickets = TicketEntity.getAllPaidQuota(userEntity) - VoteEntity.getAllVotedPaidTicket(userEntity);
 			Date lastTimeVoteFreeTicket = VoteEntity.getLastDateOfVoteFreeTikcket(userEntity);
 			int remainingFreeTickets = 0;
 			if(lastTimeVoteFreeTicket == null || 
@@ -80,8 +80,8 @@ public class VoteApi {
 				return voteStatus;
 			}
 			
-			int numberOfPaidTicket = remainingPaidTickets > ticketCount ? ticketCount : remainingPaidTickets;
-			int numberOfFreeTicket = numberOfPaidTicket < ticketCount ? remainingFreeTickets : 0;
+			long numberOfPaidTicket = remainingPaidTickets > ticketCount ? ticketCount : remainingPaidTickets;
+			long numberOfFreeTicket = numberOfPaidTicket < ticketCount ? remainingFreeTickets : 0;
 			
 			// create vote
 			if(numberOfPaidTicket>0){

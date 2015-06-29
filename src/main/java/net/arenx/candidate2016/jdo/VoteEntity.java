@@ -23,7 +23,7 @@ import com.google.appengine.datanucleus.annotations.Unowned;
 @PersistenceCapable
 public class VoteEntity {
 
-	private VoteEntity(UserEntity user,CandidateEntity candidate,Integer quota,TicketType ticketType){
+	private VoteEntity(UserEntity user,CandidateEntity candidate,Long quota,TicketType ticketType){
 		Validate.notNull(user);
 		Validate.notNull(candidate);
 		Validate.notNull(quota);
@@ -46,7 +46,7 @@ public class VoteEntity {
 	private Date date;
 	
 	@Persistent
-	private Integer quota;
+	private Long quota;
 	
 	@Persistent
 	private TicketType ticketType;
@@ -69,6 +69,10 @@ public class VoteEntity {
 
 	public Date getDate() {
 		return date;
+	}
+
+	public Long getQuota() {
+		return quota;
 	}
 
 	public UserEntity getUser() {
@@ -189,10 +193,10 @@ public class VoteEntity {
 	public static class Builder{
 		private VoteEntity voteEntity;
 		private boolean isFinished = false;
-		private Builder(UserEntity user,CandidateEntity candidate,Integer quota,TicketType ticketType){
+		private Builder(UserEntity user,CandidateEntity candidate,Long quota,TicketType ticketType){
 			voteEntity = new VoteEntity(user, candidate, quota, ticketType);
 		}
-		public static Builder initial(UserEntity user,CandidateEntity candidate,Integer quota,TicketType ticketType){
+		public static Builder initial(UserEntity user,CandidateEntity candidate,Long quota,TicketType ticketType){
 			return new Builder( user, candidate, quota, ticketType);
 		}
 		public Builder setAge(Integer age){
@@ -227,24 +231,25 @@ public class VoteEntity {
 			voteEntity.getStatisticsData().setOsType(os);
 			return this;
 		}
-		public void build(){
+		public VoteEntity build(){
 			if(isFinished){
 				throw new IllegalStateException("this builder is allready finished");
 			}
 			PersistenceManager pm=PersistenceManagerThreadLoccal.get();
 			pm.makePersistent(voteEntity);
 			isFinished=true;
+			return voteEntity;
 		}
 	}
 	
-	public static Integer getAllVotedPaidTicket(UserEntity user){
+	public static Long getAllVotedPaidTicket(UserEntity user){
 		Validate.notNull(user);
 		PersistenceManager pm=PersistenceManagerThreadLoccal.get();
 		Query query = pm.newQuery(VoteEntity.class);
 		query.setFilter("user == x && ticketType == y");
 		query.declareParameters(UserEntity.class.getName()+" x, "+TicketType.class.getName()+" y");
 		query.setResult("sum(this.quota)");
-		Integer quota = (Integer) query.execute(user,TicketType.paid);
+		Long quota = (Long) query.execute(user,TicketType.paid);
 		return quota == null ? 0 : quota;
 	}
 	

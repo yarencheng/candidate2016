@@ -30,6 +30,7 @@ public class TicketEntity {
 		ticket.owner=owner;
 		ticket.issuedDate=new Date(System.currentTimeMillis());
 		ticket.quota=1L;
+		PersistenceManagerThreadLoccal.get().makePersistent(ticket);
 		return ticket;
 	}
 	
@@ -41,6 +42,7 @@ public class TicketEntity {
 		ticket.owner=owner;
 		ticket.issuedDate=new Date(System.currentTimeMillis());
 		ticket.quota=quota;
+		PersistenceManagerThreadLoccal.get().makePersistent(ticket);
 		return ticket;
 	}
 	
@@ -61,15 +63,34 @@ public class TicketEntity {
 	@Persistent
 	private Long quota;
 	
-	
-	public static Integer getAllPaidQuota(UserEntity owner){
+	public Long getId() {
+		return id;
+	}
+
+	public TicketType getTicketType() {
+		return ticketType;
+	}
+
+	public Date getIssuedDate() {
+		return issuedDate;
+	}
+
+	public UserEntity getOwner() {
+		return owner;
+	}
+
+	public Long getQuota() {
+		return quota;
+	}
+
+	public static Long getAllPaidQuota(UserEntity owner){
 		Validate.notNull(owner);
 		PersistenceManager pm=PersistenceManagerThreadLoccal.get();
 		Query query = pm.newQuery(TicketEntity.class);
 		query.setFilter("owner == x && ticketType == y");
 		query.declareParameters(UserEntity.class.getName()+" x, "+TicketType.class.getName()+" y");
 		query.setResult("sum(this.quota)");
-		Integer quota = (Integer) query.execute(owner,TicketType.paid);
+		Long quota = (Long) query.execute(owner,TicketType.paid);
 		return quota == null ? 0 : quota;
 	}
 	

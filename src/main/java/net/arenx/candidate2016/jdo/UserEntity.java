@@ -7,6 +7,7 @@ import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
+import com.google.appengine.api.users.User;
 import com.google.appengine.datanucleus.annotations.Unowned;
 
 import net.arenx.candidate2016.appengine.enums.Sex;
@@ -66,13 +67,13 @@ public class UserEntity {
 		this.isAdmin = isAdmin;
 	}
 
-	public UserEntity(com.google.appengine.api.users.User appengineUser) {
+	private UserEntity(User appengineUser) {
 		this.appengineId = appengineUser.getUserId();
 		this.email = appengineUser.getEmail();
 		TicketEntity.createFreeTicket(this);
 	}
 
-	public static UserEntity getUser(com.google.appengine.api.users.User appengineUser, boolean createIfNew) {
+	public static UserEntity getUser(User appengineUser, boolean createIfNew) {
 		PersistenceManager pm = PersistenceManagerThreadLoccal.get();
 		UserEntity user = null;
 		try {
