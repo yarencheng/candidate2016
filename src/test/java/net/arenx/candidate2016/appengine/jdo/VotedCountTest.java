@@ -79,7 +79,7 @@ public class VotedCountTest {
 		pm.makePersistentAll(candidateList);
 		
 		// init location
-		LocationEntity[] list=mapper.readValue(new FileInputStream("target/candidate2016.appengine-1.0-SNAPSHOT/WEB-INF/location.json"), LocationEntity[].class);
+		LocationEntity[] list=mapper.readValue(new FileInputStream("src/main/webapp/WEB-INF/location.json"), LocationEntity[].class);
 		pm.makePersistentAll(list);
 		locationL1List=new ArrayList<>();
 		locationL2List=new ArrayList<>();
