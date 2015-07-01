@@ -1,7 +1,6 @@
 package net.arenx.candidate2016.appengine.api;
 
-import net.arenx.candidate2016.appengine.VoteStatus;
-import net.arenx.candidate2016.appengine.VoteStatus.Status;
+import net.arenx.candidate2016.appengine.api.VoteStatus.Status;
 import net.arenx.candidate2016.appengine.enums.Sex;
 
 import com.google.api.server.spi.config.Api;

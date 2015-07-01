@@ -1,4 +1,4 @@
-package net.arenx.candidate2016.appengine;
+package net.arenx.candidate2016.appengine.api;
 
 public class VoteStatus{
 	

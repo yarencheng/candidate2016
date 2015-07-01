@@ -32,19 +32,18 @@ public class TestDebug {
 
 	public static void main(String[] args) throws IllegalArgumentException, IllegalAccessException {
 		
-		for(Field f:LocationEntity.class.getFields()){
-			System.out.println(f);
-		}
+		Calendar calendar=Calendar.getInstance();
+		System.out.println(calendar.getTime());
 		
-		TestKey l =new TestKey();
+		calendar.add(Calendar.MONTH, -2);
+//		calendar.set(Calendar.DAY_OF_MONTH, 1);
+//		calendar.set(Calendar.HOUR_OF_DAY, 0);
+//		calendar.set(Calendar.MINUTE, 0);
+//		
+//		calendar.set(Calendar.SECOND, 0);
+//		calendar.set(Calendar.MILLISECOND, 0);
 		
-		for(Field f:TestKey.class.getDeclaredFields()){
-			System.out.println(f);
-			if(f.isAnnotationPresent(PrimaryKey.class)){
-				System.out.println("get key field");
-				System.out.println(f.get(l));
-			}
-		}
+		System.out.println(calendar.getTime());
 	}
 	
 	public static class TestKey{

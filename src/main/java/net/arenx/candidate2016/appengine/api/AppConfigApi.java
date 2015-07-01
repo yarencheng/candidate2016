@@ -11,7 +11,6 @@ import javax.servlet.ServletContext;
 
 import org.apache.commons.lang3.Validate;
 
-import net.arenx.candidate2016.appengine.Candidate;
 import net.arenx.candidate2016.jdo.AppConfigEntity;
 import net.arenx.candidate2016.jdo.CandidateEntity;
 import net.arenx.candidate2016.jdo.LocationEntity;

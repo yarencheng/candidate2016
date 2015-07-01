@@ -70,7 +70,7 @@ public class VoteEntity {
 	public Date getDate() {
 		return date;
 	}
-
+	
 	public Long getQuota() {
 		return quota;
 	}
@@ -229,6 +229,10 @@ public class VoteEntity {
 		}
 		public Builder setOsType(OsEntity os){
 			voteEntity.getStatisticsData().setOsType(os);
+			return this;
+		}
+		public Builder setDate(Date date){
+			voteEntity.date=date;
 			return this;
 		}
 		public VoteEntity build(){

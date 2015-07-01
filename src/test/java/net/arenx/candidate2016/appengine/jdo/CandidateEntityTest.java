@@ -1,5 +1,7 @@
 package net.arenx.candidate2016.appengine.jdo;
 
+import java.util.List;
+
 import javax.jdo.PersistenceManager;
 
 import net.arenx.candidate2016.jdo.CandidateEntity;
@@ -74,5 +76,41 @@ public class CandidateEntityTest {
 		
 		// verify
 		assertEquals(info, candidateEntity.getInfo());
+	}
+	
+	@Test
+	public void getAllandidates() throws InstantiationException, IllegalAccessException {
+		// setup
+		CandidateEntity[] expectCandidateEntities=new CandidateEntity[RandomUtils.nextInt(2, 10)];
+		for(int i=0;i<expectCandidateEntities.length;i++){
+			expectCandidateEntities[i]=CandidateEntity.class.newInstance(); 
+		}
+		pm.makePersistentAll(expectCandidateEntities);
+		
+		// action
+		List<CandidateEntity> actuallCandidateEntiList=CandidateEntity.getAllandidates();
+		
+		// verify
+		for(CandidateEntity expectCandidateEntity:expectCandidateEntities){
+			boolean found = false;
+			for(CandidateEntity actuallCandidateEntity:actuallCandidateEntiList){
+				if(actuallCandidateEntity.getId()==expectCandidateEntity.getId()){
+					found=true;
+					break;
+				}
+			}
+			assertTrue(found);
+		}
+	}
+	
+	@Test
+	public void getAllandidates_empty() throws InstantiationException, IllegalAccessException {
+		// setup
+		
+		// action
+		List<CandidateEntity> actuallCandidateEntiList=CandidateEntity.getAllandidates();
+		
+		// verify
+		assertTrue(actuallCandidateEntiList.isEmpty());
 	}
 }

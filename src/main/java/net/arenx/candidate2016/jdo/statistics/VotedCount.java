@@ -1,9 +1,9 @@
 package net.arenx.candidate2016.jdo.statistics;
 
 import java.io.Serializable;
-import java.sql.Date;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -60,13 +60,9 @@ public class VotedCount {
 		}
 	}
 	
-	public enum TimeUnit{
-		YEAR,MOTH,WEEK,DAY,HOUR;
-	}
-	
 	private Map<Field,Object> andConditionMap=new HashMap<Field,Object>();
 	private Date leftTimeInclusiveBound;
-	private Date rightTimeInclusiveBound;
+	private Date rightTimeExclusiveBound;
 	
 	public static VotedCount init(CandidateEntity candidateEntity) {
 		Validate.notNull(candidateEntity,"candidateEntity");
@@ -87,16 +83,15 @@ public class VotedCount {
 		return this;
 	}
 	
-	public VotedCount between(Date leftInclusive, Date rightExclusive, TimeUnit unit){
-		Validate.notNull(unit);
+	public VotedCount between(Date leftInclusive, Date rightExclusive){
 		if(leftInclusive!=null&&rightExclusive!=null){
 			Validate.isTrue(leftInclusive.before(rightExclusive),"leftInclusive should be smaller than rightExclusive");
 		}
 		leftTimeInclusiveBound=leftInclusive;
-		rightTimeInclusiveBound=rightExclusive;
+		rightTimeExclusiveBound=rightExclusive;
 		return this;
 	}
-	
+		
 	public long execute(){
 		PersistenceManager pm=PersistenceManagerThreadLoccal.get();
 		Query query = pm.newQuery(VoteEntity.class);
@@ -153,6 +148,7 @@ public class VotedCount {
 				}
 			}
 		}
+		
 		if(leftTimeInclusiveBound!=null){
 			if(filter.length()>0){
 				filter.append(" && ");
@@ -160,20 +156,20 @@ public class VotedCount {
 			if(parameter.length()>0){
 				parameter.append(", ");
 			}
-			parameter.append("date >= leftTimeBound");
+			filter.append("date >= leftTimeBound");
 			parameter.append(Date.class.getName()+" leftTimeBound");
-			outputParameterList.add(leftTimeInclusiveBound);
+			outputParameterList.add(leftTimeInclusiveBound.getTime());
 		}
-		if(rightTimeInclusiveBound!=null){
+		if(rightTimeExclusiveBound!=null){
 			if(filter.length()>0){
 				filter.append(" && ");
 			}
 			if(parameter.length()>0){
 				parameter.append(", ");
 			}
-			parameter.append("date <= rightTimeBound");
+			filter.append("date < rightTimeBound");
 			parameter.append(Date.class.getName()+" rightTimeBound");
-			outputParameterList.add(rightTimeInclusiveBound);
+			outputParameterList.add(rightTimeExclusiveBound);
 		}
 		
 		query.setFilter(filter.toString());

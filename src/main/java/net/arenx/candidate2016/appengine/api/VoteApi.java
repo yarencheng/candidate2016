@@ -6,7 +6,6 @@ import javax.jdo.PersistenceManager;
 
 import org.apache.commons.lang3.Validate;
 
-import net.arenx.candidate2016.appengine.VoteStatus;
 import net.arenx.candidate2016.appengine.enums.Sex;
 import net.arenx.candidate2016.appengine.enums.TicketType;
 import net.arenx.candidate2016.jdo.AppConfigEntity;
